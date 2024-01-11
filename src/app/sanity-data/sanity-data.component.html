@@ -1,0 +1,8 @@
+<p>sanity-data works!</p>
+<p>Content:</p>
+<div *ngIf="content">
+    <div *ngFor="let c of content">
+        <p>{{ c.name }}</p>
+        <img [src]="c.image">
+    </div>
+</div>
