@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SanityDataComponent } from './sanity-data/sanity-data.component';
 import { HeaderComponent } from './header/header.component';
+import { AboutComponent } from './about/about.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SanityDataComponent,
-    HeaderComponent
+    HeaderComponent,
+    AboutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
