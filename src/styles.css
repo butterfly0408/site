@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --color-900: rgb(32, 0, 0);
+    --color-900-t: rgba(32, 0, 0, 0.486);
+    --color-100: rgb(189, 160, 160);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Protest Strike', sans-serif;
+    letter-spacing: 4px;
+
+    background-color: var(--color-100);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}

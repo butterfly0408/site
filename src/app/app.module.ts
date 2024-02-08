@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SanityDataComponent } from './sanity-data/sanity-data.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SanityDataComponent
+    SanityDataComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

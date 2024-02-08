@@ -1,3 +1,29 @@
 img {
-    max-width: 100px;
+    max-width: 200px;
+}
+
+.content {
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.card {
+    padding: 4rem;
+    background-color: var(--color-900);
+    box-shadow: 0 0 10px 5px var(--color-900-t);
+}
+
+.card p {
+    margin-bottom: 1rem;
+    color: var(--color-100);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.card img {
+    border: solid 2px var(--color-100);
 }

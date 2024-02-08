@@ -1,7 +1,5 @@
-<p>sanity-data works!</p>
-<p>Content:</p>
-<div *ngIf="content">
-    <div *ngFor="let c of content">
+<div *ngIf="content" class="content">
+    <div *ngFor="let c of content" class="card">
         <p>{{ c.name }}</p>
         <img [src]="c.image">
     </div>
